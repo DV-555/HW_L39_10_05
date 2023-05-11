@@ -12,8 +12,7 @@ public class ApartmentsHouse extends House {
   }
   @Override
   public String toString() {
-    return "ApartmentsHouse{" +
-        "numberOfEntrances=" + numberOfEntrances +
-        '}';
+    return "ApartmentsHouse at address: " + getAddress()+
+        " NumberOfEntrances: " + numberOfEntrances;
   }
 }
