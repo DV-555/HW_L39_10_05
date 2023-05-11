@@ -17,8 +17,8 @@ public class ApartmentsHouse extends House {
 
   @Override
   public String toString() {
-    return "ApartmentsHouse address is: " + getAddress() +
-        " NumberOfEntrances: " + numberOfEntrances;
+    return "ApartmentsHouse address is: " + "\n" + getAddress() + "\n" +
+        "NumberOfEntrances: " + numberOfEntrances;
   }
 
   @Override
