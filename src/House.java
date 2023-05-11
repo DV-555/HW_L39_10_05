@@ -15,13 +15,17 @@ public abstract class House {
   public House(String address) {
     this.address = address;
   }
+
   public String getAddress() {
     return address;
   }
+
   public void setAddress(String address) {
     this.address = address;
   }
+
   public abstract String toString();
+
   public abstract String toDestroy();
 }
 

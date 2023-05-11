@@ -1,8 +1,9 @@
-public class PrivateHouse extends House{
+public class PrivateHouse extends House {
 
-  public PrivateHouse(String address){
+  public PrivateHouse(String address) {
     super(address);
   }
+
   public String toString() {
     return "PrivateHouse address is: " + getAddress();
   }
@@ -11,4 +12,5 @@ public class PrivateHouse extends House{
   public String toDestroy() {
     return "You have destroyed PrivateHouse ";
   }
+
 }
