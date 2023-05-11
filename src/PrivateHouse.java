@@ -5,12 +5,12 @@ public class PrivateHouse extends House {
   }
 
   public String toString() {
-    return "PrivateHouse address is: " + "\n" +  getAddress();
+    return "PrivateHouse address is: " + "\n" + getAddress();
   }
 
   @Override
   public String toDestroy() {
-    return "You have destroyed PrivateHouse" + "\n" ;
+    return "You have destroyed PrivateHouse" + "\n";
   }
 
 }
