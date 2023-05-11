@@ -15,4 +15,9 @@ public class ApartmentsHouse extends House {
     return "ApartmentsHouse at address: " + getAddress()+
         " NumberOfEntrances: " + numberOfEntrances;
   }
+
+  @Override
+  public String toDestroy() {
+    return String.format("You have destroyed ApartmentHouse with %S entrances",5);
+  }
 }

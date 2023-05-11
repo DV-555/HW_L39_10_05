@@ -16,6 +16,7 @@ public class Main {
 
     for (House house : ListOfHouses) {
       System.out.println(house);
+      System.out.println(house.toDestroy());
     }
   }
 }
