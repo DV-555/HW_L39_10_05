@@ -9,5 +9,23 @@ public abstract class House {
 //В основном файле программы создайте список домов, в который поместите два частных дома
 // и один многоквартирный.
 //Выведите информацию о домах в списке с использованием цикла for-each.
+private String address;
+public House(String address){
+  this.address = address;
+}
 
+  public String getAddress() {
+    return address;
+  }
+
+  public void setAddress(String address) {
+    this.address = address;
+  }
+
+  @Override
+  public String toString() {
+    return "House{" +
+        "address='" + address + '\'' +
+        '}';
+  }
 }
